@@ -1,6 +1,14 @@
 # Horror-FPS-framework
 Horror FPS for Godot Engine.
 
+Guide:
+
+How to open this and how to get this open source?
+
+You need 7-zip (https://www.7-zip.org/) if you on Windows. If you on MacOS, you need Unarchiver (https://theunarchiver.com/). If you on Android, you need ZArchiver (https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=en_US&gl=US).
+
+https://drive.google.com/file/d/1qe8wXwllr5gSCv0s4j6tn8u7IS2HeveM/view?usp=sharing
+
 Credits:
 
 Framework by me
