@@ -1,7 +1,8 @@
 # Horror-FPS-framework
-Horror FPS for Godot Engine.
 
 ![icon](https://user-images.githubusercontent.com/101306285/188991341-52b8ca36-d70d-4208-825b-7b6ebe5504fa.png)
+
+Horror FPS for Godot Engine.
 
 Credits:
 
