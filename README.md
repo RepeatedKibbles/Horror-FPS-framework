@@ -4,6 +4,10 @@
 
 Horror FPS for Godot Engine.
 
+Guide:
+
+You neeed Godot(https://godotengine.org/) to open this project.
+
 Credits:
 
 Framework by me
