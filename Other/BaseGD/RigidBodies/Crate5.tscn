@@ -1,0 +1,92 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Other/BaseGD/RigidBodies/shapes/Boxes/Crate-01.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Other/BaseGD/RigidBodies/shapes/Boxes/Wood.tres" type="Material" id=2]
+
+[sub_resource type="BoxShape" id=1]
+
+extents = Vector3( 0.92898, 0.0913995, 0.548874 )
+
+[sub_resource type="BoxShape" id=2]
+
+extents = Vector3( 1, 0.184808, 0.0581774 )
+
+[sub_resource type="BoxShape" id=3]
+
+extents = Vector3( 0.0826385, 0.362654, 0.57773 )
+
+[node name="RigidBody" type="RigidBody"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 0.0510204
+friction = 0.99
+bounce = 0.24
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = false
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+axis_lock_linear_x = false
+axis_lock_linear_y = false
+axis_lock_linear_z = false
+axis_lock_angular_x = false
+axis_lock_angular_y = false
+axis_lock_angular_z = false
+linear_velocity = Vector3( 0, 0, 0 )
+linear_damp = -1.0
+angular_velocity = Vector3( 0, 0, 0 )
+angular_damp = -1.0
+
+[node name="MeshInstance" type="MeshInstance" parent="." index="0"]
+
+transform = Transform( -4, 0, -6.03983e-07, 0, 4, 0, 6.03983e-07, 0, -4, 0.00303608, -0.0855264, -0.00202882 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 1 )
+skeleton = NodePath("..")
+material/0 = ExtResource( 2 )
+_sections_unfolded = [ "Transform", "material" ]
+
+[node name="CollisionShape" type="CollisionShape" parent="." index="1"]
+
+shape = SubResource( 1 )
+disabled = false
+
+[node name="CollisionShape2" type="CollisionShape" parent="." index="2"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.126578, -0.523017 )
+shape = SubResource( 2 )
+disabled = false
+
+[node name="CollisionShape3" type="CollisionShape" parent="." index="3"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.124073, 0.514063 )
+shape = SubResource( 2 )
+disabled = false
+
+[node name="CollisionShape4" type="CollisionShape" parent="." index="4"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.930721, 0.29882, -0.010328 )
+shape = SubResource( 3 )
+disabled = false
+
+[node name="CollisionShape5" type="CollisionShape" parent="." index="5"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.902721, 0.29882, -0.010328 )
+shape = SubResource( 3 )
+disabled = false
+
+

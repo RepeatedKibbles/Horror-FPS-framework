@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Crate-05.obj-bcd0e3402354db4808f80e740b3e00df.mesh"
+
+[deps]
+
+files=[ "res://.import/Crate-05.obj-bcd0e3402354db4808f80e740b3e00df.mesh" ]
+
+source_file="res://Other/BaseGD/RigidBodies/shapes/Boxes/Crate-05.obj"
+dest_files=[ "res://.import/Crate-05.obj-bcd0e3402354db4808f80e740b3e00df.mesh", "res://.import/Crate-05.obj-bcd0e3402354db4808f80e740b3e00df.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

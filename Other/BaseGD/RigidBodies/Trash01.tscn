@@ -1,0 +1,119 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Other/BaseGD/RigidBodies/shapes/Trashes/01/trash_01.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Other/BaseGD/RigidBodies/shapes/Trashes/01/diffuse.tga" type="Texture" id=2]
+[ext_resource path="res://Other/BaseGD/RigidBodies/shapes/Trashes/01/specular.tga" type="Texture" id=3]
+[ext_resource path="res://Other/BaseGD/RigidBodies/shapes/Trashes/01/normal.tga" type="Texture" id=4]
+
+[sub_resource type="ConvexPolygonShape" id=1]
+
+points = PoolVector3Array( 20, 1.5, 0, 20, 91.5, 0, 18.7813, 1.5, -6.83984, 18.7813, 91.5, -6.83984, 15.3203, 1.5, -12.8516, 15.3203, 91.5, -12.8516, 10, 1.5, -17.3125, 10, 91.5, -17.3125, 3.47266, 1.5, -19.6875, 3.47266, 91.5, -19.6875, -3.47266, 1.5, -19.6875, -3.47266, 91.5, -19.6875, -10, 1.5, -17.3125, -10, 91.5, -17.3125, -15.3203, 1.5, -12.8516, -15.3203, 91.5, -12.8516, -18.7813, 1.5, -6.83984, -18.7813, 91.5, -6.83984, -20, 1.5, 0, -20, 91.5, 0, -18.7813, 1.5, 6.83984, -20, 1.5, 0, -18.7813, 91.5, 6.83984, -20, 91.5, 0, -15.3203, 1.5, 12.8516, -15.3203, 91.5, 12.8516, -10, 1.5, 17.3125, -10, 91.5, 17.3125, -3.47266, 1.5, 19.6875, -3.47266, 91.5, 19.6875, 3.47266, 1.5, 19.6875, 3.47266, 91.5, 19.6875, 10, 1.5, 17.3125, 10, 91.5, 17.3125, 15.3203, 1.5, 12.8516, 15.3203, 91.5, 12.8516, 18.7813, 1.5, 6.83984, 18.7813, 91.5, 6.83984, 18.7813, 91.5, -6.83984, 20, 91.5, 0, 17.5469, 92.75, -6.39063, 18.6875, 92.75, 0, 15.3203, 91.5, -12.8516, 14.3125, 92.75, -12.0078, 10, 91.5, -17.3125, 9.34375, 92.75, -16.1719, 3.47266, 91.5, -19.6875, 3.24414, 92.75, -18.3906, -3.47266, 91.5, -19.6875, -3.24414, 92.75, -18.3906, -10, 91.5, -17.3125, -9.34375, 92.75, -16.1719, -15.3203, 91.5, -12.8516, -14.3125, 92.75, -12.0078, -18.7813, 91.5, -6.83984, -17.5469, 92.75, -6.39063, -20, 91.5, 0, -18.6875, 92.75, 0, -18.7813, 91.5, 6.83984, -17.5469, 92.75, 6.39063, -15.3203, 91.5, 12.8516, -14.3125, 92.75, 12.0078, -10, 91.5, 17.3125, -9.34375, 92.75, 16.1719, -3.47266, 91.5, 19.6875, -3.24414, 92.75, 18.3906, 3.47266, 91.5, 19.6875, 3.24414, 92.75, 18.3906, 10, 91.5, 17.3125, 9.34375, 92.75, 16.1719, 15.3203, 91.5, 12.8516, 14.3125, 92.75, 12.0078, 18.7813, 91.5, 6.83984, 17.5469, 92.75, 6.39063, 2.29883, 96.375, -0.836426, 8.03125, 95.8125, -2.92383, 2.44531, 96.375, 0, 8.54688, 95.8125, 0, 1.87402, 96.375, -1.57227, 6.54688, 95.8125, -5.49219, 1.22266, 96.375, -2.11719, 4.27344, 95.8125, -7.40234, 0.424805, 96.375, -2.4082, 1.48438, 95.8125, -8.41406, -0.424805, 96.375, -2.4082, -1.48438, 95.8125, -8.41406, -1.22266, 96.375, -2.11719, -4.27344, 95.8125, -7.40234, -1.87402, 96.375, -1.57227, -6.54688, 95.8125, -5.49219, -2.29883, 96.375, -0.836426, -8.03125, 95.8125, -2.92383, -2.44531, 96.375, 0, -8.54688, 95.8125, 0, -2.29883, 96.375, 0.836426, -8.03125, 95.8125, 2.92383, -1.87402, 96.375, 1.57227, -6.54688, 95.8125, 5.49219, -1.22266, 96.375, 2.11719, -4.27344, 95.8125, 7.40234, -0.424805, 96.375, 2.4082, -1.48438, 95.8125, 8.41406, 0.424805, 96.375, 2.4082, 1.48438, 95.8125, 8.41406, 1.22266, 96.375, 2.11719, 4.27344, 95.8125, 7.40234, 1.87402, 96.375, 1.57227, 6.54688, 95.8125, 5.49219, 2.29883, 96.375, 0.836426, 8.03125, 95.8125, 2.92383, 14, 94.8125, 0, 13.1563, 94.8125, -4.78906, 10.7266, 94.8125, -9, 7, 94.8125, -12.125, 2.42969, 94.8125, -13.7891, -2.42969, 94.8125, -13.7891, -7, 94.8125, -12.125, -10.7266, 94.8125, -9, -13.1563, 94.8125, -4.78906, -14, 94.8125, 0, -13.1563, 94.8125, 4.78906, -10.7266, 94.8125, 9, -7, 94.8125, 12.125, -2.42969, 94.8125, 13.7891, 2.42969, 94.8125, 13.7891, 7, 94.8125, 12.125, 10.7266, 94.8125, 9, 13.1563, 94.8125, 4.78906, 0, 96.5, 0, 18.7813, 1.5, -6.83984, 17.8281, 1.5, -6.49219, 20, 1.5, 0, 18.9844, 1.5, 0, 18.7813, 1.5, 6.83984, 17.8281, 1.5, 6.49219, 15.3203, 1.5, 12.8516, 14.5391, 1.5, 12.1953, 10, 1.5, 17.3125, 9.49219, 1.5, 16.4375, 3.47266, 1.5, 19.6875, 3.29492, 1.5, 18.6875, -3.47266, 1.5, 19.6875, -3.29492, 1.5, 18.6875, -10, 1.5, 17.3125, -9.49219, 1.5, 16.4375, -15.3203, 1.5, 12.8516, -14.5391, 1.5, 12.1953, -18.7813, 1.5, 6.83984, -17.8281, 1.5, 6.49219, -20, 1.5, 0, -18.9844, 1.5, 0, -18.7813, 1.5, -6.83984, -17.8281, 1.5, -6.49219, -15.3203, 1.5, -12.8516, -14.5391, 1.5, -12.1953, -10, 1.5, -17.3125, -9.49219, 1.5, -16.4375, -3.47266, 1.5, -19.6875, -3.29492, 1.5, -18.6875, 3.47266, 1.5, -19.6875, 3.29492, 1.5, -18.6875, 10, 1.5, -17.3125, 9.49219, 1.5, -16.4375, 15.3203, 1.5, -12.8516, 14.5391, 1.5, -12.1953, 17.8281, 0, -6.49219, 18.9844, 0, 0, 17.8281, 0, 6.49219, 14.5391, 0, 12.1953, 9.49219, 0, 16.4375, 3.29492, 0, 18.6875, -3.29492, 0, 18.6875, -9.49219, 0, 16.4375, -14.5391, 0, 12.1953, -17.8281, 0, 6.49219, -18.9844, 0, 0, -17.8281, 0, -6.49219, -14.5391, 0, -12.1953, -9.49219, 0, -16.4375, -3.29492, 0, -18.6875, 3.29492, 0, -18.6875, 9.49219, 0, -16.4375, 14.5391, 0, -12.1953, 0, 0, 0 )
+
+[sub_resource type="SpatialMaterial" id=2]
+
+render_priority = 0
+flags_transparent = false
+flags_unshaded = false
+flags_vertex_lighting = false
+flags_no_depth_test = false
+flags_use_point_size = false
+flags_world_triplanar = false
+flags_fixed_size = false
+flags_albedo_tex_force_srgb = false
+vertex_color_use_as_albedo = false
+vertex_color_is_srgb = false
+params_diffuse_mode = 0
+params_specular_mode = 0
+params_blend_mode = 0
+params_cull_mode = 0
+params_depth_draw_mode = 0
+params_line_width = 1.0
+params_point_size = 1.0
+params_billboard_mode = 0
+params_grow = false
+params_use_alpha_scissor = false
+albedo_color = Color( 1, 1, 1, 1 )
+albedo_texture = ExtResource( 2 )
+metallic = 0.0
+metallic_specular = 0.5
+metallic_texture = ExtResource( 3 )
+metallic_texture_channel = 0
+roughness = 0.0
+roughness_texture_channel = 0
+emission_enabled = false
+normal_enabled = true
+normal_scale = 1.0
+normal_texture = ExtResource( 4 )
+rim_enabled = false
+clearcoat_enabled = false
+anisotropy_enabled = false
+ao_enabled = false
+depth_enabled = false
+subsurf_scatter_enabled = false
+transmission_enabled = false
+refraction_enabled = false
+detail_enabled = false
+uv1_scale = Vector3( 1, 1, 1 )
+uv1_offset = Vector3( 0, 0, 0 )
+uv1_triplanar = false
+uv1_triplanar_sharpness = 1.0
+uv2_scale = Vector3( 1, 1, 1 )
+uv2_offset = Vector3( 0, 0, 0 )
+uv2_triplanar = false
+uv2_triplanar_sharpness = 1.0
+proximity_fade_enable = false
+distance_fade_enable = false
+_sections_unfolded = [ "Albedo", "Metallic", "NormalMap" ]
+
+[node name="RigidBody" type="RigidBody" index="0"]
+
+input_ray_pickable = true
+input_capture_on_drag = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 0.4
+friction = 0.8
+bounce = 0.2
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = false
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+axis_lock_linear_x = false
+axis_lock_linear_y = false
+axis_lock_linear_z = false
+axis_lock_angular_x = false
+axis_lock_angular_y = false
+axis_lock_angular_z = false
+linear_velocity = Vector3( 0, 0, 0 )
+linear_damp = -1.0
+angular_velocity = Vector3( 0, 0, 0 )
+angular_damp = -1.0
+
+[node name="CollisionShape2" type="CollisionShape" parent="." index="0"]
+
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, 0, 0, 0 )
+shape = SubResource( 1 )
+disabled = false
+
+[node name="MeshInstance" type="MeshInstance" parent="." index="1"]
+
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, 0, 0, 0 )
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = ExtResource( 1 )
+skeleton = NodePath("..")
+material/0 = SubResource( 2 )
+_sections_unfolded = [ "Transform", "material" ]
+
+

@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/trash_04.obj-c1c1b7845d3516a448b861a4095bb401.mesh"
+
+[deps]
+
+files=[ "res://.import/trash_04.obj-c1c1b7845d3516a448b861a4095bb401.mesh" ]
+
+source_file="res://Other/BaseGD/RigidBodies/shapes/Trashes/03/trash_04.obj"
+dest_files=[ "res://.import/trash_04.obj-c1c1b7845d3516a448b861a4095bb401.mesh", "res://.import/trash_04.obj-c1c1b7845d3516a448b861a4095bb401.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

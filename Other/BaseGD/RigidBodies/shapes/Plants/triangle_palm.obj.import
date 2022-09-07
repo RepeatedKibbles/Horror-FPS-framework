@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/triangle_palm.obj-acf567ff02d9124874380e4cdea388ee.mesh"
+
+[deps]
+
+files=[ "res://.import/triangle_palm.obj-acf567ff02d9124874380e4cdea388ee.mesh" ]
+
+source_file="res://Other/BaseGD/RigidBodies/shapes/Plants/triangle_palm.obj"
+dest_files=[ "res://.import/triangle_palm.obj-acf567ff02d9124874380e4cdea388ee.mesh", "res://.import/triangle_palm.obj-acf567ff02d9124874380e4cdea388ee.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

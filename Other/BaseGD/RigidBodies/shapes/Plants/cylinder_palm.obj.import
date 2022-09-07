@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cylinder_palm.obj-6c538622d94f86be8c3b94c616d0473d.mesh"
+
+[deps]
+
+files=[ "res://.import/cylinder_palm.obj-6c538622d94f86be8c3b94c616d0473d.mesh" ]
+
+source_file="res://Other/BaseGD/RigidBodies/shapes/Plants/cylinder_palm.obj"
+dest_files=[ "res://.import/cylinder_palm.obj-6c538622d94f86be8c3b94c616d0473d.mesh", "res://.import/cylinder_palm.obj-6c538622d94f86be8c3b94c616d0473d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

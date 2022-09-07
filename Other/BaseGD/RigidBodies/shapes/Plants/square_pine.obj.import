@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/square_pine.obj-909d163c82f7d456324b129485603fbb.mesh"
+
+[deps]
+
+files=[ "res://.import/square_pine.obj-909d163c82f7d456324b129485603fbb.mesh" ]
+
+source_file="res://Other/BaseGD/RigidBodies/shapes/Plants/square_pine.obj"
+dest_files=[ "res://.import/square_pine.obj-909d163c82f7d456324b129485603fbb.mesh", "res://.import/square_pine.obj-909d163c82f7d456324b129485603fbb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
