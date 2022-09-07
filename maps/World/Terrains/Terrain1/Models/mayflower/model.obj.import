@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/model.obj-91372168debc9ba6f21038cd5818f29b.mesh"
+
+[deps]
+
+files=[ "res://.import/model.obj-91372168debc9ba6f21038cd5818f29b.mesh" ]
+
+source_file="res://maps/World/Terrains/Terrain1/Models/mayflower/model.obj"
+dest_files=[ "res://.import/model.obj-91372168debc9ba6f21038cd5818f29b.mesh", "res://.import/model.obj-91372168debc9ba6f21038cd5818f29b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

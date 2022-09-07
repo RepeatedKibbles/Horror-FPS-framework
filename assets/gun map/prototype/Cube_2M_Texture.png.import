@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/Cube_2M_Texture.png-d5428fa0e6ff860eacdada292b47a077.image"
+
+[deps]
+
+source_file="res://assets/gun map/prototype/Cube_2M_Texture.png"
+dest_files=[ "res://.import/Cube_2M_Texture.png-d5428fa0e6ff860eacdada292b47a077.image" ]
+
+[params]
+

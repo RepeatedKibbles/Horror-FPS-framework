@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bullet_impact.wav-12bf66797321ac874773c8bb5eef76ce.sample"
+
+[deps]
+
+source_file="res://play/player/shoot/bullet_impact.wav"
+dest_files=[ "res://.import/bullet_impact.wav-12bf66797321ac874773c8bb5eef76ce.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

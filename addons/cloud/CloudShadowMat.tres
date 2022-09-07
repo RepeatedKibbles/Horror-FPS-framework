@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://addons/cloud/CloudShadow.shader" type="Shader" id=1]
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/bias = 0.4
+shader_param/scale = 100.0
+shader_param/seed = -1000.0
+shader_param/speed = 2.0
+shader_param/transform_speed = Vector2( 0, 0.0001 )

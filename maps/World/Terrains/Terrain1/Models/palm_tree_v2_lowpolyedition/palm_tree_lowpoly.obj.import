@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/palm_tree_lowpoly.obj-f2e575847d4bf8e85594f840063f2ffe.mesh"
+
+[deps]
+
+files=[ "res://.import/palm_tree_lowpoly.obj-f2e575847d4bf8e85594f840063f2ffe.mesh" ]
+
+source_file="res://maps/World/Terrains/Terrain1/Models/palm_tree_v2_lowpolyedition/palm_tree_lowpoly.obj"
+dest_files=[ "res://.import/palm_tree_lowpoly.obj-f2e575847d4bf8e85594f840063f2ffe.mesh", "res://.import/palm_tree_lowpoly.obj-f2e575847d4bf8e85594f840063f2ffe.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

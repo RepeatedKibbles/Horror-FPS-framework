@@ -1,0 +1,155 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "MeshInstance",
+"class": "CloudDome",
+"language": "GDScript",
+"path": "res://addons/cloud/Cloud.gd"
+}, {
+"base": "",
+"class": "ConsoleCloser",
+"language": "NativeScript",
+"path": "res://addons/console_closer.gdns"
+}, {
+"base": "Reference",
+"class": "FrustumAABBIntersection",
+"language": "GDScript",
+"path": "res://addons/silicon.vfx.volumetrics/utilities/frustum_aabb_intersection.gd"
+}, {
+"base": "ResourceFormatLoader",
+"class": "HTerrainDataLoader",
+"language": "GDScript",
+"path": "res://addons/zylann.hterrain/hterrain_resource_loader.gd"
+}, {
+"base": "ResourceFormatSaver",
+"class": "HTerrainDataSaver",
+"language": "GDScript",
+"path": "res://addons/zylann.hterrain/hterrain_resource_saver.gd"
+}, {
+"base": "Reference",
+"class": "Halton",
+"language": "GDScript",
+"path": "res://addons/silicon.vfx.volumetrics/utilities/halton.gd"
+}, {
+"base": "Node",
+"class": "Interactable",
+"language": "GDScript",
+"path": "res://Interactable/Interactable.gd"
+}, {
+"base": "Reference",
+"class": "Matrix4",
+"language": "GDScript",
+"path": "res://addons/silicon.vfx.volumetrics/utilities/matrix4.gd"
+}, {
+"base": "Node",
+"class": "SceneBounds",
+"language": "GDScript",
+"path": "res://addons/silicon.vfx.volumetrics/utilities/scene_bounds.gd"
+}, {
+"base": "ShaderMaterial",
+"class": "TransparentVolumeOverlay",
+"language": "GDScript",
+"path": "res://addons/silicon.vfx.volumetrics/material/transparent_volume_overlayer.gd"
+}, {
+"base": "Resource",
+"class": "VolumetricMaterial",
+"language": "GDScript",
+"path": "res://addons/silicon.vfx.volumetrics/material/volumetric_material.gd"
+}, {
+"base": "",
+"class": "Xbox",
+"language": "NativeScript",
+"path": "res://addons/godot_xbox.gdns"
+} ]
+_global_script_class_icons={
+"CloudDome": "",
+"ConsoleCloser": "",
+"FrustumAABBIntersection": "",
+"HTerrainDataLoader": "",
+"HTerrainDataSaver": "",
+"Halton": "",
+"Interactable": "",
+"Matrix4": "",
+"SceneBounds": "",
+"TransparentVolumeOverlay": "",
+"VolumetricMaterial": "res://addons/silicon.vfx.volumetrics/material/volumetric_material.svg",
+"Xbox": ""
+}
+
+[addons]
+
+quick_scenes/selected_scene=-1
+quick_scenes/quick_run_shortcut=Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":true,"scancode":16777252,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+
+
+[application]
+
+config/name="Horror FPS framework"
+run/main_scene="res://Splash.tscn"
+boot_splash/image="res://assets/Boot splash/loading.png"
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
+config/icon="res://icon.png"
+config/macos_native_icon="res://icon.icns"
+config/windows_native_icon="res://icon.ico"
+
+[autoload]
+
+VolumetricServer="*res://addons/silicon.vfx.volumetrics/volumetric_server.gd"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/size/test_width=1280
+window/size/test_height=720
+window/dpi/allow_hidpi=true
+window/handheld/orientation="sensor"
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/cloud/plugin.cfg", "res://addons/silicon.vfx.volumetrics/plugin.cfg", "res://addons/waterways/plugin.cfg", "res://addons/zylann.hterrain/plugin.cfg", "res://addons/zylann.scatter/plugin.cfg", "res://addons/zylann.treegen/plugin.cfg" )
+
+[gdnative]
+
+singletons=[  ]
+
+[global]
+
+size=false
+
+[input]
+
+key_exit={
+"deadzone": 0.5,
+"events": [ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777217,"physical_scancode":0,"unicode":0,"echo":false,"script":null)
+ ]
+}
+
+[locale]
+
+locale_filter=[ 0, [  ] ]
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/intended_usage/framebuffer_allocation.mobile=2
+gles3/shaders/shader_compilation_mode=2
+gles3/shaders/shader_compilation_mode.mobile=2
+gles3/shaders/shader_compilation_mode.web=2
+environment/default_clear_color=Color( 0.301961, 0.301961, 0.301961, 1 )
+quality/filters/use_fxaa=true
+quality/filters/use_debanding=true
+environment/default_environment="res://default_env.tres"

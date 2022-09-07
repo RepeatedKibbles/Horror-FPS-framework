@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/oak.obj-4c96b6b517eae2d68f319c0636be7350.mesh"
+
+[deps]
+
+files=[ "res://.import/oak.obj-4c96b6b517eae2d68f319c0636be7350.mesh" ]
+
+source_file="res://maps/World/Terrains/Terrain1/Models/jkm_oaktree/models/oak.obj"
+dest_files=[ "res://.import/oak.obj-4c96b6b517eae2d68f319c0636be7350.mesh", "res://.import/oak.obj-4c96b6b517eae2d68f319c0636be7350.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://maps/World/Terrains/Terrain1/Terrain1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://play/player/Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://maps/World/Terrains/Terrain1/Music/Labyrinth-of-Lost-Dreams-MP3.mp3" type="AudioStream" id=3]
+
+[sub_resource type="ProceduralSky" id=1]
+sky_top_color = Color( 0, 0, 0, 1 )
+sky_horizon_color = Color( 0, 0, 0, 1 )
+ground_bottom_color = Color( 0, 0, 0, 1 )
+ground_horizon_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="Environment" id=2]
+background_mode = 2
+background_sky = SubResource( 1 )
+fog_enabled = true
+fog_color = Color( 0, 0, 0, 1 )
+fog_sun_color = Color( 0, 0, 0, 1 )
+fog_transmit_enabled = true
+fog_height_enabled = true
+tonemap_mode = 4
+auto_exposure_enabled = true
+auto_exposure_scale = 0.01
+ss_reflections_enabled = true
+ssao_enabled = true
+ssao_quality = 2
+dof_blur_far_enabled = true
+dof_blur_far_quality = 2
+dof_blur_near_enabled = true
+dof_blur_near_quality = 2
+glow_enabled = true
+glow_blend_mode = 0
+glow_bicubic_upscale = true
+glow_high_quality = true
+adjustment_enabled = true
+
+[node name="World" type="Spatial"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 175.067, 11.7692, 142.231 )
+
+[node name="Terrains" type="Spatial" parent="."]
+
+[node name="HTerrain" parent="Terrains" instance=ExtResource( 1 )]
+lod_scale = 2.0
+render_layers = 1
+
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[editable path="Player"]

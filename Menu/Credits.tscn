@@ -1,0 +1,130 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Menu/Main Menu.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Menu/Options.gd" type="Script" id=2]
+[ext_resource path="res://assets/Extras and Easter EGG/sprite/S&TT.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Menu/background.png" type="Texture" id=4]
+[ext_resource path="res://assets/fade_in/FadeIn.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Menu/UISound.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/font/Roboto-Regular.ttf" type="DynamicFontData" id=7]
+
+[sub_resource type="Animation" id=3]
+length = 10.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rect_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3, 6, 10 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -534, 345 ), Vector2( 56, 782 ), Vector2( 1248, 163 ), Vector2( 2300, 345 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:rect_rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 3, 6, 10 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 23.2, -7.7, 0.0 ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "S&TT"
+length = 10.0
+loop = true
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 7 )
+
+[node name="Credits" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 960, 540 )
+texture = ExtResource( 4 )
+
+[node name="S&TT" parent="." instance=ExtResource( 3 )]
+margin_left = -534.0
+margin_top = 345.0
+margin_right = 5225.97
+margin_bottom = 3585.0
+rect_scale = Vector2( 6, 6 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../S&TT")
+autoplay = "RESET"
+anims/RESET = SubResource( 3 )
+anims/S&TT = SubResource( 4 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 300.0
+margin_right = 1600.0
+margin_bottom = 900.0
+rect_pivot_offset = Vector2( -2788, 33 )
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_top = 45.0
+margin_right = 1300.0
+margin_bottom = 790.0
+custom_fonts/font = SubResource( 2 )
+text = "Credits:
+
+Game:
+Created by me
+
+Godot Plugins:
+Cloud Shader - arlez80 (Kinomoto Yui)
+Volumetrics Plugin - SI Silicon (Roujel Williams)
+Waterways - Arnklit (Kasper Arnklit Frandsen)
+Heightmap Terrain - Zylann (Marc Gilleron)
+Scatter Tool - Zylann (Marc Gilleron)
+Tree generator - Zylann (Marc Gilleron)
+
+Blender Addons:
+tree-gen - friggog (Charlie Hewitt)
+Rock Generator - versluis (Jay Versluis)
+Godot Engine's native Blender exporter add-on - Godot Engine
+
+Asset:
+Simple Grass - luisboch (Luis Carlos Boch)
+Godot Grass Shader - BastiaanOlij (Bastiaan Olij)
+First Person Controller - Linko-3D
+Godot Motion Blur - Bauxitedev
+Godot Super Scaling - cybereality (Andres Hernandez)
+Godot Retro - Ahopness (Lucas Ângelo)
+Godot Flipbook Particles - MrMinimal (Tom Langwaldt)
+Godot-Volumetrics-Plugin - SIsilicon (Roujel Williams)
+Nobiax's Urban Assets - yaelatletl
+
+Templates:
+Main Menu - jackboyman01 (aka, \"jackboyman\")
+Godot 3D Horror Game - MacdonaldRobinson (aka, \"Mac\")
+EpicHorrorGame - Shryder
+Horror-Game-Godot - Cnez130"
+align = 1
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_top = 794.0
+margin_right = 1300.0
+margin_bottom = 855.0
+custom_fonts/font = ExtResource( 1 )
+text = "Back"
+
+[node name="FadeIn" parent="." instance=ExtResource( 5 )]
+visible = false
+
+[node name="UISound" parent="." instance=ExtResource( 6 )]
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]
+[connection signal="fade_finished" from="FadeIn" to="." method="_on_FadeIn_fade_finished"]

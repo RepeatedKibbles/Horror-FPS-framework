@@ -1,0 +1,69 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Menu/Main Menu.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Menu/DSS.gd" type="Script" id=2]
+[ext_resource path="res://screenshot/Clipboarder.2022.08.03-002.png" type="Texture" id=3]
+[ext_resource path="res://Menu/background.png" type="Texture" id=4]
+[ext_resource path="res://assets/fade_in/FadeIn.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Menu/UISound.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Menu/Buttons/StageTXT.tscn" type="PackedScene" id=7]
+[ext_resource path="res://screenshot/Clipboarder.2022.08.03-003.png" type="Texture" id=9]
+
+[node name="Stage Select" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="background" type="Sprite" parent="."]
+position = Vector2( 960, 540 )
+texture = ExtResource( 4 )
+
+[node name="StageTXT" parent="." instance=ExtResource( 7 )]
+margin_left = 73.0
+margin_top = 35.0
+margin_right = 1753.0
+margin_bottom = 95.0
+
+[node name="1" type="Sprite" parent="."]
+position = Vector2( 1466, 423 )
+scale = Vector2( 0.395645, 0.440659 )
+texture = ExtResource( 3 )
+
+[node name="1" type="Button" parent="1"]
+margin_left = -940.0
+margin_top = -505.0
+margin_right = 940.0
+margin_bottom = 505.0
+flat = true
+
+[node name="2" type="Sprite" parent="."]
+position = Vector2( 493, 421 )
+scale = Vector2( 0.415557, 0.460317 )
+texture = ExtResource( 9 )
+
+[node name="2" type="Button" parent="2"]
+anchor_left = -0.001
+anchor_right = -0.001
+margin_left = -939.123
+margin_top = -504.0
+margin_right = 939.877
+margin_bottom = 504.0
+flat = true
+
+[node name="Button" type="Button" parent="."]
+margin_left = 847.0
+margin_top = 706.0
+margin_right = 1147.0
+margin_bottom = 767.0
+custom_fonts/font = ExtResource( 1 )
+text = "Back"
+
+[node name="FadeIn" parent="." instance=ExtResource( 5 )]
+visible = false
+
+[node name="UISound" parent="." instance=ExtResource( 6 )]
+
+[connection signal="pressed" from="1/1" to="." method="_on_1_pressed"]
+[connection signal="pressed" from="2/2" to="." method="_on_2_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="fade_finished" from="FadeIn" to="." method="_on_FadeIn_fade_finished"]
