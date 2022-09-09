@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CCA.png-dd16237e9d497222e5aec0297497274f.stex"
+path="res://.import/MIT.png-c5456d11e2bf619e1100684d49a82a46.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/CCA/CCA.png"
-dest_files=[ "res://.import/CCA.png-dd16237e9d497222e5aec0297497274f.stex" ]
+source_file="res://assets/MIT/MIT.png"
+dest_files=[ "res://.import/MIT.png-c5456d11e2bf619e1100684d49a82a46.stex" ]
 
 [params]
 

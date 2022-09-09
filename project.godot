@@ -14,11 +14,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/cloud/Cloud.gd"
 }, {
-"base": "",
-"class": "ConsoleCloser",
-"language": "NativeScript",
-"path": "res://addons/console_closer.gdns"
-}, {
 "base": "Reference",
 "class": "FrustumAABBIntersection",
 "language": "GDScript",
@@ -63,15 +58,9 @@ _global_script_classes=[ {
 "class": "VolumetricMaterial",
 "language": "GDScript",
 "path": "res://addons/silicon.vfx.volumetrics/material/volumetric_material.gd"
-}, {
-"base": "",
-"class": "Xbox",
-"language": "NativeScript",
-"path": "res://addons/godot_xbox.gdns"
 } ]
 _global_script_class_icons={
 "CloudDome": "",
-"ConsoleCloser": "",
 "FrustumAABBIntersection": "",
 "HTerrainDataLoader": "",
 "HTerrainDataSaver": "",
@@ -80,8 +69,7 @@ _global_script_class_icons={
 "Matrix4": "",
 "SceneBounds": "",
 "TransparentVolumeOverlay": "",
-"VolumetricMaterial": "res://addons/silicon.vfx.volumetrics/material/volumetric_material.svg",
-"Xbox": ""
+"VolumetricMaterial": "res://addons/silicon.vfx.volumetrics/material/volumetric_material.svg"
 }
 
 [addons]
