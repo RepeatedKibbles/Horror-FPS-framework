@@ -91,6 +91,7 @@ config/windows_native_icon="res://icon.ico"
 [autoload]
 
 VolumetricServer="*res://addons/silicon.vfx.volumetrics/volumetric_server.gd"
+PlayerInfo="*res://Singletons/PlayerInfo.gd"
 
 [display]
 
