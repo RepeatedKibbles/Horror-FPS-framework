@@ -1,0 +1,1423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Revision",
+				"RevisionEffectiveDate"
+			],
+			[
+				"Manual",
+				"ManualBook_SectionParagraphGlobalID"
+			],
+			[
+				"ManualB",
+				"ManualBook_SectionParagraphGlobalID"
+			],
+			[
+				"array_mer",
+				"array_merge"
+			],
+			[
+				"Effect",
+				"EffectiveDate"
+			],
+			[
+				"get",
+				"get_section_editor_query〔function〕"
+			],
+			[
+				"current",
+				"current_section"
+			],
+			[
+				"for",
+				"fore\tfor (each)"
+			],
+			[
+				"Manualb",
+				"ManualBookGlobalID"
+			],
+			[
+				"switch",
+				"switch\tswitch …"
+			],
+			[
+				"classific",
+				"classifications_index"
+			],
+			[
+				"currentparagr",
+				"current_paragraph_name"
+			],
+			[
+				"Response",
+				"Response::make\tCreate a Custom Response"
+			],
+			[
+				"DB",
+				"DB::select\tRun a select statement against the database."
+			],
+			[
+				"sect",
+				"section_title"
+			],
+			[
+				"revision-",
+				"revision-history"
+			],
+			[
+				"foreach",
+				"foreach\tforeach …"
+			],
+			[
+				"searc",
+				"$search_data〔variable〕"
+			],
+			[
+				"ManualBook",
+				"ManualBook_ChapterSectionGlobalID"
+			],
+			[
+				"paragraphs",
+				"paragraphs_builder"
+			],
+			[
+				"Paragrap",
+				"ParagraphTitle"
+			],
+			[
+				"Manua",
+				"ManualBook_ChapterSectionGlobalID"
+			],
+			[
+				"col",
+				"col"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"a",
+				"a\t<a>"
+			],
+			[
+				"if",
+				"if\tblade-if"
+			],
+			[
+				"integration-sett",
+				"integration-settings-tab"
+			],
+			[
+				"Storage",
+				"Storage::makeDirectory\tWill create the given directory, including any needed sub-directories"
+			],
+			[
+				"screens",
+				"screensnip_user_id"
+			],
+			[
+				"selected",
+				"selectedName"
+			],
+			[
+				"section",
+				"section"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/SM/Desktop/game dev/Godot/MasterServer/app.js",
+			"settings":
+			{
+				"buffer_size": 3102,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "app.js"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"remov epack",
+				"Package Control: Remove Package"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"phpcs",
+				"phpfmt: getter and setter (camelCase)"
+			],
+			[
+				"status bar",
+				"View: Toggle Status Bar"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"index",
+				"Indexing Status"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Controller",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"model",
+				"Laravel Artisan 5: Make:Model"
+			],
+			[
+				"controller",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"rienden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"serve",
+				"Laravel Artisan 5: Serve"
+			],
+			[
+				"convert tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"REINDEN",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Rename File"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"migration",
+				"Laravel Artisan 5: Make:Migration"
+			],
+			[
+				"migrate",
+				"Laravel Artisan 5: Migrate"
+			],
+			[
+				"rollbac",
+				"Laravel Artisan 5: Migrate:Rollback"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"wakatime",
+				"WakaTime: Open Dashboard"
+			],
+			[
+				"rollback",
+				"Laravel Artisan 5: Migrate:Rollback"
+			],
+			[
+				"phpdoc",
+				"phpfmt: generate PHPDoc block"
+			],
+			[
+				"doc",
+				"Snippet: DOUBLE equivalent with precision"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"refresh",
+				"Laravel Artisan 5: Migrate:Refresh"
+			],
+			[
+				"fresh",
+				"Laravel Artisan 5: Migrate:Refresh"
+			],
+			[
+				"toggleex",
+				"ToggleExclude: Conditional Patterns: Settings – User"
+			],
+			[
+				"togglee",
+				"ToggleExclude: Conditional Patterns: Settings – Default"
+			],
+			[
+				"toggleexclude",
+				"ToggleExclude: Conditional Patterns: Settings – User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"phpfmt",
+				"phpfmt: format now"
+			],
+			[
+				"make migration",
+				"Laravel Artisan 5: Make:Migration"
+			],
+			[
+				"artisan migration",
+				"Laravel Artisan 5: Make:Migration"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"comment",
+				"Snippet: Comment - Section header comment"
+			],
+			[
+				"lines",
+				"Permute Lines: Reverse"
+			],
+			[
+				"CodeTimeT",
+				"CodeTimeTracker: Open Dashboard"
+			],
+			[
+				"Install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"disable live",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"Enable live aut",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"SublimeCode",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
+			[
+				"Show all ",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"SublimeLinter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"htmlprett",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"format",
+				"Blade Spacer: Format File"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install apck",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle addition",
+				"phpfmt: toggle additional transformations"
+			],
+			[
+				"installp ac",
+				"Package Control: Install Package"
+			],
+			[
+				"set babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Babel Transform"
+			],
+			[
+				"material",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 200.0,
+		"history":
+		[
+			"cd sublime",
+			"dir()",
+			"dir",
+			"directory",
+			"ls",
+			"print('epic')",
+			"print(i);",
+			"i = 1",
+			"dadada"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/SM/Desktop/game dev/Godot/EpicHorrorGame",
+		"/C/Users/SM/Desktop/game dev/Godot/MasterServer"
+	],
+	"file_history":
+	[
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/PageController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/admin/drafts.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/pages/default.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/layout.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/sass/style.scss",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/HistoryController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/sections/classifications_code_interpretations.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/AdminController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/history.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/sections/classifications_index.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/config/constants.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/admin/search.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/admin/going_live.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/js/components/ClassificationEditor.vue",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/js/components/AdminSearch.vue",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/js/components/SectionEditor.vue",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/admin/section_editor.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/admin/classification_editor.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/routes/web.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/side-nav.blade.php",
+		"/C/Users/SM/Desktop/game dev/Godot/EpicHorrorGame/.gitignore",
+		"/C/Users/SM/Desktop/game dev/Godot/EpicHorrorGame/textures/Marble/marble_01_AO_2k.jpg.import",
+		"/C/Users/SM/Documents/NodeJS/grade_calculator/jquery.js",
+		"/C/Users/SM/Documents/NodeJS/grade_calculator/index.html",
+		"/C/Users/SM/Documents/NodeJS/grade_calculator/main.js",
+		"/C/Users/SM/Documents/NodeJS/MovieBot/app.js",
+		"/C/Users/SM/digital-library-x/scss/style.scss",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/SearchController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/js/app.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/overview.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/History.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/admin/recently_edited.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Paragraph.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Search.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/pages/classifications.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/css/style.css",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/sass/app.scss",
+		"/C/Users/SM/Desktop/game dev/Tools/MergeSprites/app.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Chapter.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/robots.txt",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/pdfrenderer.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/sections/classifications_introduction.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/utils/pagination.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/sections/forms_and_endorsements.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/composer.json",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Providers/AppServiceProvider.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/config/app.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/.env",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/webpack.mix.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/vendor/nikic/php-parser/test/code/parser/scalar/constantString.test",
+		"/C/Users/SM/digital-library-x/pages/overview.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/pdfmake.js",
+		"/C/Users/SM/Desktop/Material Theme - Copy/sources/themes/palenight/sidebar.json",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/mobilecheck.jquery.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/workarounds.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/css/app.css",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/css/workarounds.css",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/search.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/dataTables.semanticui.min.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/jquery.dataTables.min.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/css/dataTables.semanticui.min.css",
+		"/C/Users/SM/Desktop/boss.txt",
+		"/C/Users/SM/Desktop/Piaf-Vuejs-Admin-Dashboard-2.0.2/Source/src/App.vue",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/info.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/pages/miscellaneous.blade.php",
+		"/C/Users/SM/digital-library-x/pages/search-results.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Helpers/BladeViewHelper.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/DownloadController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/ManualBook_File.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/bootbox.js",
+		"/C/Users/SM/AppData/Local/Temp/Rar$DIa30476.47605/scrollBar.css",
+		"/C/Users/SM/Desktop/ext/manifest.json",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/jquery.cleditor.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/js/bootstrap.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/css/scrollbar.css",
+		"/C/Users/SM/AppData/Local/Temp/Rar$DIa30476.28199/scrollBar.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/scrollbar.js",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/PDFGenerationController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/sections/forms_and_endorsements_numeric.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/custom_pages/classifications.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/custom_pages/default.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/page.blade.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/custom_pages/miscellaneous.blade.php",
+		"/C/Users/SM/digital-library-x/partials/book-chapter.php",
+		"/C/Users/SM/digital-library-x/modules/footer.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/.env",
+		"/C/Users/SM/Documents/NodeJS/Digital Library.sublime-project",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/js/html2canvas.js",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/search.blade.php",
+		"/C/Users/SM/Desktop/Piaf-Vuejs-Admin-Dashboard-2.0.2/Source/src/components/ChatApp/ConversationList.vue",
+		"/C/Users/SM/Desktop/Piaf-Vuejs-Admin-Dashboard-2.0.2/Source/src/components/ChatApp/ConversationDetail.vue",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Providers/HelperServiceProvider.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Helpers/BladeViewHelpers.php",
+		"/C/Users/SM/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/SM/digital-library-x/css/style.css",
+		"/C/Users/SM/AppData/Roaming/Sublime Text 3/Packages/User/WakaTime.sublime-settings",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Http/Controllers/MainController.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/app.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/web.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/bootstrap/app.php",
+		"/C/Users/SM/digital-library-x/modules/header.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/web.config",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/SM/digital-library-x/wcel.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/PageController.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/.htaccess",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/public/css/fonts.css",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/config/filesystems.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/index.php",
+		"/C/Users/SM/Desktop/nigger.txt",
+		"/C/Users/SM/AppData/Roaming/BetterDiscord/plugins/discordCrypt.plugin.js",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/paragraph_history.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/book_style.css",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/app/Book.php",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/package.json",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/views/welcome.blade.php",
+		"/C/Users/SM/Downloads/DigitalLibrary_Data.csv",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/resources/css/fonts.css",
+		"/C/Users/SM/Documents/NodeJS/nydev/digital-library/config/database.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/adminer.php",
+		"/C/Users/SM/Downloads/adminer-4.7.1-en (1).php",
+		"/C/Users/SM/Downloads/vw_DigitalLibrary_Navigation.sql",
+		"/C/Users/SM/Downloads/vw_DigitalLibrary_Navigation (1).sql",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/plugin.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/dump.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/dumper.php",
+		"/C/Users/SM/AppData/Local/Temp/fz3temp-2/adminer.css"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 254.0,
+		"where_history":
+		[
+			"C:\\Users\\SM\\Documents\\NodeJS\\nydev\\digital-library\\resources\\views",
+			"C:\\Users\\SM\\Documents\\NodeJS\\nydev\\digital-library",
+			"C:\\Users\\SM\\Documents\\NodeJS\\nydev\\digital-library\\resources\\views",
+			"C:\\Users\\SM\\Documents\\NodeJS\\nydev\\digital-library",
+			"C:\\Users\\SM\\Documents\\NodeJS\\nydev\\digital-library\\app",
+			"C:\\Users\\SM\\digital-library-x",
+			"C:\\Users\\SM\\Documents\\NodeJS\\bugsnipe\\app",
+			"C:\\Users\\SM\\Documents\\NodeJS\\bugsnipe\\app\\Http",
+			"C:\\Users\\SM\\Documents\\NodeJS\\bugsnipe\\app",
+			"C:\\Users\\SM\\Documents\\NodeJS\\bugsnipe-tui\\src\\js",
+			"C:\\Users\\SM\\Documents\\NodeJS\\bugsnipe\\app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"go_live_date",
+			"draft",
+			"admin-search",
+			"paragraph_pub",
+			"Future Revisions",
+			"A4E00D96-5539-4FD3-9489-41864BBB4012",
+			"A4E00D96-5539-4FD3-9489-41864BBB4200",
+			"Future'",
+			"RevisionVersion']",
+			"Future",
+			"Draft",
+			"RCBUlletinNumber",
+			"Paragraph",
+			"Section",
+			"addBelowSection",
+			"addBelowParagraph",
+			"revision_version",
+			"revision_number",
+			"revision_version",
+			"publishpara",
+			"revision",
+			"state",
+			"version_number",
+			"revision",
+			"revision_number",
+			"revision_",
+			"disabled_dates",
+			"datepicker",
+			"publish",
+			"classification_editor",
+			"0A801464-1743-4D8B-BF74-738B50018047",
+			"A4E00D96-5539-4FD3-9489-41864BBB4336",
+			"2D84C7DD-A64F-4B3F-BA1B-07B9678CA6A3",
+			"constants.books",
+			"Section_",
+			"RevisionType",
+			"DisplayOrder",
+			"something",
+			"publish",
+			"section",
+			"Title",
+			"saveParagraph",
+			"draft",
+			"drafts",
+			"edited_paragraph.revision",
+			"bootbox.form",
+			"history",
+			"addbelow",
+			"addBelow",
+			"addbelow",
+			"h5",
+			"collapseOne",
+			"span",
+			" ",
+			"publishParagraph",
+			"->section",
+			"global",
+			"Section",
+			"all good",
+			"paragraph",
+			"request->",
+			"ClassificationNotes",
+			"current_paragraph",
+			"Classification",
+			"book",
+			"chapter_title",
+			"change_chapter_title",
+			"Add Below",
+			"addbelow",
+			"ClassificationOperations",
+			"&rdquo;",
+			"bold",
+			".response",
+			"response",
+			"classification",
+			"full_chapters",
+			"revision",
+			"sections",
+			"ManualBook_SectionParagraphGlobalID",
+			"current_chapter",
+			"ClassificationTitle",
+			"this.optional",
+			"ParagraphText",
+			"ParagraphTitle",
+			"= \"\"",
+			"RCBulletinNumber",
+			"paragraph",
+			"edit se",
+			"card-goto",
+			"item",
+			"latest",
+			"current_book",
+			"Section",
+			"paragraph_editor",
+			"A4E00D96-5539-4FD3-9489-41864BBB4343",
+			"A4E00D96-5539-4FD3-9489-41864BBB4342",
+			"A4E00D96-5539-4FD3-9489-41864BBB4343",
+			"classifications",
+			"debug",
+			"saveParagraph",
+			"01",
+			"go_live_date",
+			"publishParagraph",
+			"saveDraft",
+			"str",
+			"new Date",
+			"paragraph:",
+			"paragraph.rev",
+			"paragraph.go",
+			"paragraph.",
+			"go_live_date",
+			"RCNumber",
+			"index",
+			"constants",
+			"41864BBB4336",
+			".revision-body .card .card-header .float-right.rcbulletin",
+			"rcbulletin",
+			"nav#sideb",
+			"parse_single",
+			"paragraphs",
+			".revision-body .card .card-header .float-right.rcbulletin",
+			"revision-history",
+			"close-revision",
+			"Publish",
+			"4E00D96-5539-4FD3-9489-41864BBB4602",
+			"A4E00D96-5539-4FD3-9489-41864BBB4602",
+			"paginated_sections",
+			"letter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"text().trim()",
+			"'is_active' => 0",
+			"project-settings",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/SM/Desktop/game dev/Godot/MasterServer/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2831,
+								2831
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "app.js",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 102.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "Packages/Erlang/Erlang.sublime-build",
+	"project": "EpicHorrorGame.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"layout",
+				"resources\\views\\layout.blade.php"
+			],
+			[
+				"HistoryContr",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"classificationedit",
+				"resources\\js\\components\\ClassificationEditor.vue"
+			],
+			[
+				"classification",
+				"resources\\views\\sections\\classifications_index.blade.php"
+			],
+			[
+				"admincontr",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"Classification",
+				"resources\\js\\components\\ClassificationEditor.vue"
+			],
+			[
+				"HistoryCOntr",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"adminsear",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"AdminContr",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"PageControl",
+				"app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"drafts",
+				"resources\\views\\admin\\drafts.blade.php"
+			],
+			[
+				"going_live",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"constan",
+				"config\\constants.php"
+			],
+			[
+				"\tclassification_edi",
+				"resources\\views\\admin\\classification_editor.blade.php"
+			],
+			[
+				"AdminCOntrol",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"goinglive",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"historyblade",
+				"resources\\views\\history.blade.php"
+			],
+			[
+				"HisotryCOntr",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"default",
+				"resources\\views\\pages\\default.blade.php"
+			],
+			[
+				"AdminControl",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"History",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"going_l",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"SIDENAV",
+				"resources\\views\\side-nav.blade.php"
+			],
+			[
+				"code_inter",
+				"resources\\views\\sections\\classifications_code_interpretations.blade.php"
+			],
+			[
+				"\tHistoryContr",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"classification_index",
+				"resources\\views\\sections\\classifications_index.blade.php"
+			],
+			[
+				"admin/search",
+				"resources\\views\\admin\\search.blade.php"
+			],
+			[
+				"constant",
+				"config\\constants.php"
+			],
+			[
+				"classification_code",
+				"resources\\views\\sections\\classifications_code_interpretations.blade.php"
+			],
+			[
+				"sidenav",
+				"resources\\views\\side-nav.blade.php"
+			],
+			[
+				"classification_intr",
+				"resources\\views\\sections\\classifications_code_interpretations.blade.php"
+			],
+			[
+				"consta",
+				"config\\constants.php"
+			],
+			[
+				"admincon",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"adminsea",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"going_li",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"classifi",
+				"resources\\js\\components\\ClassificationEditor.vue"
+			],
+			[
+				"web.php",
+				"routes\\web.php"
+			],
+			[
+				"section",
+				"resources\\js\\components\\SectionEditor.vue"
+			],
+			[
+				"classification_ed",
+				"resources\\views\\admin\\classification_editor.blade.php"
+			],
+			[
+				"web.",
+				"routes\\web.php"
+			],
+			[
+				"web.ph",
+				"routes\\web.php"
+			],
+			[
+				"adminsearc",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"sectionedi",
+				"resources\\js\\components\\SectionEditor.vue"
+			],
+			[
+				"sectioneditor",
+				"resources\\js\\components\\SectionEditor.vue"
+			],
+			[
+				"app.js",
+				"resources\\js\\app.js"
+			],
+			[
+				"section_edi",
+				"resources\\views\\admin\\section_editor.blade.php"
+			],
+			[
+				"Chapter",
+				"app\\Chapter.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"web.p",
+				"routes\\web.php"
+			],
+			[
+				"searchcontr",
+				"app\\Http\\Controllers\\SearchController.php"
+			],
+			[
+				"HistoryCon",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"",
+				"resources\\js\\app.js"
+			],
+			[
+				"constants",
+				"config\\constants.php"
+			],
+			[
+				"classificationed",
+				"resources\\js\\components\\ClassificationEditor.vue"
+			],
+			[
+				"searchblade",
+				"resources\\views\\search.blade.php"
+			],
+			[
+				"overview",
+				"resources\\views\\overview.blade.php"
+			],
+			[
+				"history",
+				"resources\\views\\history.blade.php"
+			],
+			[
+				"recentl",
+				"resources\\views\\admin\\recently_edited.blade.php"
+			],
+			[
+				"rrecently",
+				"resources\\views\\admin\\recently_edited.blade.php"
+			],
+			[
+				"draft",
+				"resources\\views\\admin\\drafts.blade.php"
+			],
+			[
+				"admincontrol",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"goingliv",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"pagecon",
+				"app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"goingli",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"pagecontr",
+				"app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"app.php",
+				"config\\app.php"
+			],
+			[
+				"appservi",
+				"app\\Providers\\AppServiceProvider.php"
+			],
+			[
+				"adminc",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"adminco",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"recent",
+				"resources\\views\\admin\\recently_edited.blade.php"
+			],
+			[
+				"admin",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"golive",
+				"resources\\views\\admin\\going_live.blade.php"
+			],
+			[
+				"admincont",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"Paragra",
+				"app\\Paragraph.php"
+			],
+			[
+				"AdminCo",
+				"app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"Paragraph",
+				"app\\Paragraph.php"
+			],
+			[
+				"overvi",
+				"resources\\views\\overview.blade.php"
+			],
+			[
+				"overview.blade",
+				"resources\\views\\overview.blade.php"
+			],
+			[
+				"ADminSear",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"ADminSe",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"AdminSear",
+				"resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"siden",
+				"resources\\views\\side-nav.blade.php"
+			],
+			[
+				"PageCon",
+				"app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"histor",
+				"resources\\views\\history.blade.php"
+			],
+			[
+				"style.scss",
+				"resources\\sass\\style.scss"
+			],
+			[
+				"pdfren",
+				"public\\js\\pdfrenderer.js"
+			],
+			[
+				"stylescss",
+				"resources\\sass\\style.scss"
+			],
+			[
+				"classindex",
+				"resources\\views\\sections\\classifications_index.blade.php"
+			],
+			[
+				"overvie",
+				"resources\\views\\overview.blade.php"
+			],
+			[
+				"overviewblade",
+				"resources\\views\\overview.blade.php"
+			],
+			[
+				"HistoryContro",
+				"app\\Http\\Controllers\\HistoryController.php"
+			],
+			[
+				"layoutblade",
+				"resources\\views\\layout.blade.php"
+			],
+			[
+				"classifications_code_interpretations",
+				"resources\\views\\sections\\classifications_code_interpretations.blade.php"
+			],
+			[
+				"Pagecontro",
+				"app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"classificationindex",
+				"resources\\views\\sections\\classifications_index.blade.php"
+			],
+			[
+				"PageCOntro",
+				"app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"Overview",
+				"digital-library-x\\pages\\overview.php"
+			],
+			[
+				"defaul",
+				"digital-library\\resources\\views\\pages\\default.blade.php"
+			],
+			[
+				"Pagecontrol",
+				"digital-library\\app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"\tPageControl",
+				"digital-library\\app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"app.scss",
+				"digital-library\\resources\\sass\\app.scss"
+			],
+			[
+				"classificcode",
+				"digital-library\\resources\\views\\sections\\classifications_code_interpretations.blade.php"
+			],
+			[
+				"defaultblade",
+				"digital-library\\resources\\views\\pages\\default.blade.php"
+			],
+			[
+				"pdfmake",
+				"digital-library\\public\\js\\pdfmake.js"
+			],
+			[
+				"styel.scss",
+				"digital-library-x\\scss\\style.scss"
+			],
+			[
+				"workaroun",
+				"digital-library\\public\\js\\workarounds.js"
+			],
+			[
+				"app.css",
+				"digital-library\\resources\\css\\app.css"
+			],
+			[
+				"workaro",
+				"digital-library\\public\\css\\workarounds.css"
+			],
+			[
+				"workaround",
+				"digital-library\\public\\css\\workarounds.css"
+			],
+			[
+				"style.css",
+				"digital-library\\resources\\css\\style.css"
+			],
+			[
+				"PageContr",
+				"digital-library\\app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"pdfrend",
+				"digital-library\\public\\js\\pdfrenderer.js"
+			],
+			[
+				"PageContro",
+				"digital-library\\app\\Http\\Controllers\\PageController.php"
+			],
+			[
+				"bootbox",
+				"digital-library\\public\\js\\bootbox.js"
+			],
+			[
+				"AdminSea",
+				"digital-library\\resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"AdminContro",
+				"digital-library\\app\\Http\\Controllers\\AdminController.php"
+			],
+			[
+				"admins",
+				"digital-library\\resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"app",
+				"digital-library\\resources\\js\\app.js"
+			],
+			[
+				"AdmiNSear",
+				"digital-library\\resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"style",
+				"digital-library\\resources\\css\\style.css"
+			],
+			[
+				"pdfrender",
+				"digital-library\\public\\js\\pdfrenderer.js"
+			],
+			[
+				"DOwnloadCOntr",
+				"digital-library\\app\\Http\\Controllers\\DownloadController.php"
+			],
+			[
+				"DownloadContr",
+				"digital-library\\app\\Http\\Controllers\\DownloadController.php"
+			],
+			[
+				"app.j",
+				"digital-library\\resources\\js\\app.js"
+			],
+			[
+				"AdminS",
+				"digital-library\\resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"adminsearch",
+				"digital-library\\resources\\js\\components\\AdminSearch.vue"
+			],
+			[
+				"DownloadC",
+				"digital-library\\app\\Http\\Controllers\\DownloadController.php"
+			],
+			[
+				"AdminSearc",
+				"digital-library\\app\\Http\\Controllers\\AdminSearchController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\SM\\Documents\\NodeJS\\Digital Library.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

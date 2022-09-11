@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Menu/Buttons/StartButton.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Menu/background.png" type="Texture" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://Menu/Buttons/CreditsButton.tscn" type="PackedScene" id=11]
 [ext_resource path="res://assets/MIT/MIT.png" type="Texture" id=12]
 [ext_resource path="res://Menu/Buttons/LinkButton.gd" type="Script" id=13]
+[ext_resource path="res://Menu/Buttons/Online.tscn" type="PackedScene" id=14]
 
 [sub_resource type="DynamicFont" id=2]
 size = 40
@@ -44,53 +45,58 @@ stretch_mode = 4
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
 margin_top = 155.0
 margin_right = 1680.0
-margin_bottom = 535.0
+margin_bottom = 537.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
 margin_right = 838.0
-margin_bottom = 380.0
+margin_bottom = 382.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 20
 alignment = 1
 
 [node name="Start Game" parent="Menu/CenterRow/Buttons" instance=ExtResource( 1 )]
-margin_top = 39.0
 margin_right = 838.0
-margin_bottom = 100.0
+margin_bottom = 61.0
 custom_fonts/font = ExtResource( 7 )
 
-[node name="OptionsButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 4 )]
-margin_top = 120.0
+[node name="Online" parent="Menu/CenterRow/Buttons" instance=ExtResource( 14 )]
+margin_top = 81.0
 margin_right = 838.0
-margin_bottom = 181.0
+margin_bottom = 141.0
+scene_to_load = "res://Scenes/GUI/MainMenu.tscn"
+
+[node name="OptionsButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 4 )]
+margin_top = 161.0
+margin_right = 838.0
+margin_bottom = 222.0
 custom_fonts/font = ExtResource( 7 )
 
 [node name="Credits" parent="Menu/CenterRow/Buttons" instance=ExtResource( 11 )]
-margin_top = 201.0
+margin_top = 242.0
 margin_right = 838.0
-margin_bottom = 261.0
+margin_bottom = 302.0
 scene_to_load = "res://Menu/Credits.tscn"
 
 [node name="Quit" parent="Menu/CenterRow/Buttons" instance=ExtResource( 10 )]
-margin_top = 281.0
+margin_top = 322.0
 margin_right = 838.0
-margin_bottom = 341.0
+margin_bottom = 382.0
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 842.0
 margin_right = 1680.0
-margin_bottom = 380.0
+margin_bottom = 382.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="Menu/CenterRow/CenterContainer"]
 margin_left = 268.0
-margin_top = 17.0
+margin_top = 18.0
 margin_right = 570.0
-margin_bottom = 362.0
+margin_bottom = 363.0
 custom_fonts/font = ExtResource( 7 )
 text = "Controls:
 WASD - Move
@@ -104,15 +110,15 @@ __meta__ = {
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Menu/CenterRow/CenterContainer"]
 margin_left = 419.0
-margin_top = 190.0
+margin_top = 191.0
 margin_right = 419.0
-margin_bottom = 190.0
+margin_bottom = 191.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="VersionLabel" type="Label" parent="Menu"]
-margin_top = 539.0
+margin_top = 541.0
 margin_right = 1680.0
 margin_bottom = 920.0
 size_flags_horizontal = 3
