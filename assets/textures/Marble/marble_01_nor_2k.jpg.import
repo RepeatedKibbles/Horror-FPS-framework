@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/forrest_ground_01_disp_1k.jpg-df69ab7e4774c8da77aa7cb3bccddd3e.s3tc.stex"
-path.etc2="res://.import/forrest_ground_01_disp_1k.jpg-df69ab7e4774c8da77aa7cb3bccddd3e.etc2.stex"
+path.s3tc="res://.import/marble_01_nor_2k.jpg-497e6976dcc7fa0f8df88d0751a77b33.s3tc.stex"
+path.etc2="res://.import/marble_01_nor_2k.jpg-497e6976dcc7fa0f8df88d0751a77b33.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Grass/forrest_ground_01_disp_1k.jpg"
-dest_files=[ "res://.import/forrest_ground_01_disp_1k.jpg-df69ab7e4774c8da77aa7cb3bccddd3e.s3tc.stex", "res://.import/forrest_ground_01_disp_1k.jpg-df69ab7e4774c8da77aa7cb3bccddd3e.etc2.stex" ]
+source_file="res://assets/textures/Marble/marble_01_nor_2k.jpg"
+dest_files=[ "res://.import/marble_01_nor_2k.jpg-497e6976dcc7fa0f8df88d0751a77b33.s3tc.stex", "res://.import/marble_01_nor_2k.jpg-497e6976dcc7fa0f8df88d0751a77b33.etc2.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
-compress/normal_map=0
+compress/normal_map=1
 flags/repeat=true
 flags/filter=true
 flags/mipmaps=true

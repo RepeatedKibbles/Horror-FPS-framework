@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/marble_01_spec_2k.jpg-ec468fe49c168cc9025ea4eeccf5cf08.stex"
+path="res://.import/forrest_ground_01_rough_ao_1k.jpg-526b6438e1266656dbbcb5489770ef41.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/Marble/marble_01_spec_2k.jpg"
-dest_files=[ "res://.import/marble_01_spec_2k.jpg-ec468fe49c168cc9025ea4eeccf5cf08.stex" ]
+source_file="res://assets/textures/Grass/forrest_ground_01_rough_ao_1k.jpg"
+dest_files=[ "res://.import/forrest_ground_01_rough_ao_1k.jpg-526b6438e1266656dbbcb5489770ef41.stex" ]
 
 [params]
 

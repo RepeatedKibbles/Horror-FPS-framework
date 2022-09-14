@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/forrest_ground_01_ao_1k.jpg-d708e46cd838c26eef00ccdc8ed1643a.s3tc.stex"
-path.etc2="res://.import/forrest_ground_01_ao_1k.jpg-d708e46cd838c26eef00ccdc8ed1643a.etc2.stex"
+path.s3tc="res://.import/marble_01_AO_2k.jpg-7ad9e6cbadf9d432dec6f2ac59b597c9.s3tc.stex"
+path.etc2="res://.import/marble_01_AO_2k.jpg-7ad9e6cbadf9d432dec6f2ac59b597c9.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Grass/forrest_ground_01_ao_1k.jpg"
-dest_files=[ "res://.import/forrest_ground_01_ao_1k.jpg-d708e46cd838c26eef00ccdc8ed1643a.s3tc.stex", "res://.import/forrest_ground_01_ao_1k.jpg-d708e46cd838c26eef00ccdc8ed1643a.etc2.stex" ]
+source_file="res://assets/textures/Marble/marble_01_AO_2k.jpg"
+dest_files=[ "res://.import/marble_01_AO_2k.jpg-7ad9e6cbadf9d432dec6f2ac59b597c9.s3tc.stex", "res://.import/marble_01_AO_2k.jpg-7ad9e6cbadf9d432dec6f2ac59b597c9.etc2.stex" ]
 
 [params]
 
@@ -25,7 +25,7 @@ flags/repeat=true
 flags/filter=true
 flags/mipmaps=true
 flags/anisotropic=false
-flags/srgb=1
+flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false

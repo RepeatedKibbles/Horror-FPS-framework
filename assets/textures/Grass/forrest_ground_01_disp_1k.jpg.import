@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/marble_01_AO_2k.jpg-228851399ce025eb97608b75f469bea3.s3tc.stex"
-path.etc2="res://.import/marble_01_AO_2k.jpg-228851399ce025eb97608b75f469bea3.etc2.stex"
+path.s3tc="res://.import/forrest_ground_01_disp_1k.jpg-e58c175e421d892ec43465b8e7744369.s3tc.stex"
+path.etc2="res://.import/forrest_ground_01_disp_1k.jpg-e58c175e421d892ec43465b8e7744369.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Marble/marble_01_AO_2k.jpg"
-dest_files=[ "res://.import/marble_01_AO_2k.jpg-228851399ce025eb97608b75f469bea3.s3tc.stex", "res://.import/marble_01_AO_2k.jpg-228851399ce025eb97608b75f469bea3.etc2.stex" ]
+source_file="res://assets/textures/Grass/forrest_ground_01_disp_1k.jpg"
+dest_files=[ "res://.import/forrest_ground_01_disp_1k.jpg-e58c175e421d892ec43465b8e7744369.s3tc.stex", "res://.import/forrest_ground_01_disp_1k.jpg-e58c175e421d892ec43465b8e7744369.etc2.stex" ]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://textures/Grass.tres" type="Material" id=1]
+[ext_resource path="res://assets/textures/Grass.tres" type="Material" id=1]
 
 [sub_resource type="CubeMesh" id=1]
 

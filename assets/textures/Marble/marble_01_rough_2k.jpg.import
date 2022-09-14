@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/marble_01_diff_2k.jpg-6941386a9be6b351b381db0fdbd7d9dc.s3tc.stex"
-path.etc2="res://.import/marble_01_diff_2k.jpg-6941386a9be6b351b381db0fdbd7d9dc.etc2.stex"
+path.s3tc="res://.import/marble_01_rough_2k.jpg-768e0615bf576634d552356d0f840b72.s3tc.stex"
+path.etc2="res://.import/marble_01_rough_2k.jpg-768e0615bf576634d552356d0f840b72.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Marble/marble_01_diff_2k.jpg"
-dest_files=[ "res://.import/marble_01_diff_2k.jpg-6941386a9be6b351b381db0fdbd7d9dc.s3tc.stex", "res://.import/marble_01_diff_2k.jpg-6941386a9be6b351b381db0fdbd7d9dc.etc2.stex" ]
+source_file="res://assets/textures/Marble/marble_01_rough_2k.jpg"
+dest_files=[ "res://.import/marble_01_rough_2k.jpg-768e0615bf576634d552356d0f840b72.s3tc.stex", "res://.import/marble_01_rough_2k.jpg-768e0615bf576634d552356d0f840b72.etc2.stex" ]
 
 [params]
 
@@ -25,7 +25,7 @@ flags/repeat=true
 flags/filter=true
 flags/mipmaps=true
 flags/anisotropic=false
-flags/srgb=1
+flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false

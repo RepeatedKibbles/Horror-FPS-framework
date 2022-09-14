@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/forrest_ground_01_diff_1k.jpg-652cb97723fbb466c8dec257ec56347f.s3tc.stex"
-path.etc2="res://.import/forrest_ground_01_diff_1k.jpg-652cb97723fbb466c8dec257ec56347f.etc2.stex"
+path.s3tc="res://.import/forrest_ground_01_ao_1k.jpg-c7cb8ad7d53aa39031b63584940fdf40.s3tc.stex"
+path.etc2="res://.import/forrest_ground_01_ao_1k.jpg-c7cb8ad7d53aa39031b63584940fdf40.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://textures/Grass/forrest_ground_01_diff_1k.jpg"
-dest_files=[ "res://.import/forrest_ground_01_diff_1k.jpg-652cb97723fbb466c8dec257ec56347f.s3tc.stex", "res://.import/forrest_ground_01_diff_1k.jpg-652cb97723fbb466c8dec257ec56347f.etc2.stex" ]
+source_file="res://assets/textures/Grass/forrest_ground_01_ao_1k.jpg"
+dest_files=[ "res://.import/forrest_ground_01_ao_1k.jpg-c7cb8ad7d53aa39031b63584940fdf40.s3tc.stex", "res://.import/forrest_ground_01_ao_1k.jpg-c7cb8ad7d53aa39031b63584940fdf40.etc2.stex" ]
 
 [params]
 
