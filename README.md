@@ -4,13 +4,16 @@
 
 Horror FPS for Godot Engine.
 
+
 Guide:
 
 You need [Godot](https://godotengine.org/) to open this project.
 
+
 Credits:
 
 Framework by me
+
 
 Godot Plugins:
 
@@ -25,14 +28,6 @@ Heightmap Terrain - Zylann (Marc Gilleron)
 Scatter Tool - Zylann (Marc Gilleron)
 
 Tree generator - Zylann (Marc Gilleron)
-
-Blender Addons:
-
-tree-gen - friggog (Charlie Hewitt)
-
-Rock Generator - versluis (Jay Versluis)
-
-Godot Engine's native Blender exporter add-on - Godot Engine
 
 
 Asset:
@@ -54,6 +49,7 @@ Godot Flipbook Particles - MrMinimal (Tom Langwaldt)
 Godot-Volumetrics-Plugin - SIsilicon (Roujel Williams)
 
 Nobiax's Urban Assets - yaelatletl
+
 
 Templates:
 
