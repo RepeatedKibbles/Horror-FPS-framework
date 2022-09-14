@@ -46,8 +46,6 @@ Godot-Volumetrics-Plugin - SIsilicon (Roujel Williams)
 
 Nobiax's Urban Assets - yaelatletl
 
-
-
 Templates:
 
 Main Menu - jackboyman01 (aka, "jackboyman")
