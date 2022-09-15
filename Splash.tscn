@@ -29,7 +29,7 @@ tracks/1/keys = {
 "times": PoolRealArray( 0, 1, 2, 3 ),
 "transitions": PoolRealArray( 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Vector2( 0, 0 ), Vector2( 136, 79 ), Vector2( 649, 411 ), Vector2( 959, 540 ) ]
+"values": [ Vector2( -66, -93 ), Vector2( 136, 79 ), Vector2( 649, 411 ), Vector2( 959, 540 ) ]
 }
 tracks/2/type = "value"
 tracks/2/path = NodePath(".:scale")
