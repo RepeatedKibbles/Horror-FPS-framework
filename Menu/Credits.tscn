@@ -74,9 +74,9 @@ rect_pivot_offset = Vector2( -2788, 33 )
 alignment = 1
 
 [node name="Label" type="Label" parent="VBoxContainer"]
-margin_top = 45.0
+margin_top = 89.0
 margin_right = 1300.0
-margin_bottom = 790.0
+margin_bottom = 746.0
 custom_fonts/font = SubResource( 2 )
 text = "Credits:
 
@@ -90,11 +90,6 @@ Waterways - Arnklit (Kasper Arnklit Frandsen)
 Heightmap Terrain - Zylann (Marc Gilleron)
 Scatter Tool - Zylann (Marc Gilleron)
 Tree generator - Zylann (Marc Gilleron)
-
-Blender Addons:
-tree-gen - friggog (Charlie Hewitt)
-Rock Generator - versluis (Jay Versluis)
-Godot Engine's native Blender exporter add-on - Godot Engine
 
 Asset:
 Simple Grass - luisboch (Luis Carlos Boch)
@@ -111,13 +106,14 @@ Templates:
 Main Menu - jackboyman01 (aka, \"jackboyman\")
 Godot 3D Horror Game - MacdonaldRobinson (aka, \"Mac\")
 EpicHorrorGame - Shryder
-Horror-Game-Godot - Cnez130"
+Horror-Game-Godot - Cnez130
+godot-fps - Code with Tom"
 align = 1
 
 [node name="Button" type="Button" parent="VBoxContainer"]
-margin_top = 794.0
+margin_top = 750.0
 margin_right = 1300.0
-margin_bottom = 855.0
+margin_bottom = 811.0
 custom_fonts/font = ExtResource( 1 )
 text = "Back"
 
