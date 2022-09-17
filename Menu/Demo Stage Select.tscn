@@ -2,12 +2,12 @@
 
 [ext_resource path="res://Menu/Main Menu.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Menu/DSS.gd" type="Script" id=2]
-[ext_resource path="res://screenshot/Clipboarder.2022.08.03-002.png" type="Texture" id=3]
+[ext_resource path="res://assets/screenshot/Clipboarder.2022.08.03-002.png" type="Texture" id=3]
 [ext_resource path="res://Menu/background.png" type="Texture" id=4]
 [ext_resource path="res://assets/fade_in/FadeIn.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Menu/UISound.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Menu/Buttons/StageTXT.tscn" type="PackedScene" id=7]
-[ext_resource path="res://screenshot/Clipboarder.2022.08.03-003.png" type="Texture" id=9]
+[ext_resource path="res://assets/screenshot/Clipboarder.2022.08.03-003.png" type="Texture" id=9]
 
 [node name="Stage Select" type="Control"]
 anchor_right = 1.0

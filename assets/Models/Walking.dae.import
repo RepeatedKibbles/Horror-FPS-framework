@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Idle.dae-b5bd116177c7dd86314dbd30c5ef4cf9.scn"
+path="res://.import/Walking.dae-40ed8adacb98f35a165e729ed9899d9d.scn"
 
 [deps]
 
-source_file="res://Models/Idle.dae"
-dest_files=[ "res://.import/Idle.dae-b5bd116177c7dd86314dbd30c5ef4cf9.scn" ]
+source_file="res://assets/Models/Walking.dae"
+dest_files=[ "res://.import/Walking.dae-40ed8adacb98f35a165e729ed9899d9d.scn" ]
 
 [params]
 
@@ -29,7 +29,7 @@ meshes/lightmap_texel_size=0.1
 skins/use_named_skins=true
 external_files/store_in_subdir=false
 animation/import=true
-animation/fps=15
+animation/fps=30.0
 animation/filter_script=""
 animation/storage=false
 animation/keep_custom_tracks=false

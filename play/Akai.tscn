@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://play/Player.gd" type="Script" id=1]
-[ext_resource path="res://Models/Akai_MAT.material" type="Material" id=2]
+[ext_resource path="res://assets/Models/Akai_MAT.material" type="Material" id=2]
 [ext_resource path="res://play/AnimationTree.gd" type="Script" id=3]
 
 [sub_resource type="CapsuleShape" id=3]

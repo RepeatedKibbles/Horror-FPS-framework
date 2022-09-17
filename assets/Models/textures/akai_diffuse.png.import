@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/akai_diffuse.png-cf7b52f2a7c549627ebcb43689830aee.s3tc.stex"
-path.etc2="res://.import/akai_diffuse.png-cf7b52f2a7c549627ebcb43689830aee.etc2.stex"
+path.s3tc="res://.import/akai_diffuse.png-9795fd196bafb6de5f95ea026698b0bb.s3tc.stex"
+path.etc2="res://.import/akai_diffuse.png-9795fd196bafb6de5f95ea026698b0bb.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/akai_diffuse.png"
-dest_files=[ "res://.import/akai_diffuse.png-cf7b52f2a7c549627ebcb43689830aee.s3tc.stex", "res://.import/akai_diffuse.png-cf7b52f2a7c549627ebcb43689830aee.etc2.stex" ]
+source_file="res://assets/Models/textures/akai_diffuse.png"
+dest_files=[ "res://.import/akai_diffuse.png-9795fd196bafb6de5f95ea026698b0bb.s3tc.stex", "res://.import/akai_diffuse.png-9795fd196bafb6de5f95ea026698b0bb.etc2.stex" ]
 
 [params]
 

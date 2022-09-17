@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Clipboarder.2022.08.03-003.png-e26aafb92e5bd02ba80cee7b9a520c8b.stex"
+path="res://.import/akai_normal.png-1d4f7bb03f498b32924eca2f5f4d5439.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://screenshot/Clipboarder.2022.08.03-003.png"
-dest_files=[ "res://.import/Clipboarder.2022.08.03-003.png-e26aafb92e5bd02ba80cee7b9a520c8b.stex" ]
+source_file="res://assets/Models/textures/akai_normal.png"
+dest_files=[ "res://.import/akai_normal.png-1d4f7bb03f498b32924eca2f5f4d5439.stex" ]
 
 [params]
 

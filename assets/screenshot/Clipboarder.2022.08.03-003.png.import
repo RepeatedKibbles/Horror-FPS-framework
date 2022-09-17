@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Clipboarder.2022.08.03-002.png-f2dcead8029e316cc9cd82cb2ded9efb.stex"
+path="res://.import/Clipboarder.2022.08.03-003.png-77e787b1cb86af505b61728c7c538d67.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://screenshot/Clipboarder.2022.08.03-002.png"
-dest_files=[ "res://.import/Clipboarder.2022.08.03-002.png-f2dcead8029e316cc9cd82cb2ded9efb.stex" ]
+source_file="res://assets/screenshot/Clipboarder.2022.08.03-003.png"
+dest_files=[ "res://.import/Clipboarder.2022.08.03-003.png-77e787b1cb86af505b61728c7c538d67.stex" ]
 
 [params]
 
