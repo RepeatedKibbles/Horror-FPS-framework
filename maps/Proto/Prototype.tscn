@@ -1,15 +1,19 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://maps/Proto/Geometry/Floor.tscn" type="PackedScene" id=1]
 [ext_resource path="res://maps/Proto/Geometry/Wall.tscn" type="PackedScene" id=2]
 [ext_resource path="res://play/player/Player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://maps/Proto/Geometry/Cube.tscn" type="PackedScene" id=4]
 [ext_resource path="res://maps/Proto/Environment.tres" type="Environment" id=5]
+[ext_resource path="res://play/enemy/Enemy.tscn" type="PackedScene" id=6]
 
 [node name="PrototypeLevel" type="Spatial"]
 
-[node name="Player" parent="." instance=ExtResource( 3 )]
+[node name="Player" parent="." groups=["Player"] instance=ExtResource( 3 )]
 transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 16.3359, 1.37543, -15.4065 )
+
+[node name="Enemy" parent="." instance=ExtResource( 6 )]
+transform = Transform( -0.48481, 0, -0.87462, 0, 1, 0, 0.87462, 0, -0.48481, -3.27984, 5.62692, 4.24214 )
 
 [node name="ArenaGeometry" type="Spatial" parent="."]
 

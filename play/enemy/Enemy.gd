@@ -1,6 +1,6 @@
 extends KinematicBody
 
-export var speed = 100
+export var speed = 300
 var space_state
 var target
 
@@ -38,3 +38,6 @@ func set_color_red():
 
 func set_color_green():
 	$MeshInstance.get_surface_material(0).set_albedo(Color(0, 1, 0))
+
+func _on_timer_timeout():
+	pass
