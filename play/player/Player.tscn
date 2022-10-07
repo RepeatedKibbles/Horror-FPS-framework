@@ -44,7 +44,6 @@ margin_right = 1920.0
 margin_bottom = 1080.0
 
 [node name="BackBufferCopy" type="BackBufferCopy" parent="Head/Camera"]
-position = Vector2( 879, 567 )
 copy_mode = 2
 
 [node name="Pixelated" type="ColorRect" parent="Head/Camera"]
