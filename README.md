@@ -1,4 +1,4 @@
-# Horror-FPS-framework
+# Horror FPS framework
 
 ![icon](https://user-images.githubusercontent.com/101306285/188991341-52b8ca36-d70d-4208-825b-7b6ebe5504fa.png)
 
