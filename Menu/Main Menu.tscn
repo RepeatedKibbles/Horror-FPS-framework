@@ -45,80 +45,81 @@ stretch_mode = 4
 [node name="CenterRow" type="HBoxContainer" parent="Menu"]
 margin_top = 155.0
 margin_right = 1680.0
-margin_bottom = 537.0
+margin_bottom = 558.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Buttons" type="VBoxContainer" parent="Menu/CenterRow"]
 margin_right = 838.0
-margin_bottom = 382.0
+margin_bottom = 403.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_constants/separation = 20
 alignment = 1
 
 [node name="Start Game" parent="Menu/CenterRow/Buttons" instance=ExtResource( 1 )]
+margin_top = 10.0
 margin_right = 838.0
-margin_bottom = 61.0
+margin_bottom = 71.0
 custom_fonts/font = ExtResource( 7 )
 
 [node name="Online" parent="Menu/CenterRow/Buttons" instance=ExtResource( 14 )]
-margin_top = 81.0
+margin_top = 91.0
 margin_right = 838.0
-margin_bottom = 141.0
+margin_bottom = 151.0
 scene_to_load = "res://Scenes/GUI/MainMenu.tscn"
 
 [node name="OptionsButton" parent="Menu/CenterRow/Buttons" instance=ExtResource( 4 )]
-margin_top = 161.0
+margin_top = 171.0
 margin_right = 838.0
-margin_bottom = 222.0
+margin_bottom = 232.0
 custom_fonts/font = ExtResource( 7 )
 
 [node name="Credits" parent="Menu/CenterRow/Buttons" instance=ExtResource( 11 )]
-margin_top = 242.0
+margin_top = 252.0
 margin_right = 838.0
-margin_bottom = 302.0
+margin_bottom = 312.0
 scene_to_load = "res://Menu/Credits.tscn"
 
 [node name="Quit" parent="Menu/CenterRow/Buttons" instance=ExtResource( 10 )]
-margin_top = 322.0
+margin_top = 332.0
 margin_right = 838.0
-margin_bottom = 382.0
+margin_bottom = 392.0
 
 [node name="CenterContainer" type="CenterContainer" parent="Menu/CenterRow"]
 margin_left = 842.0
 margin_right = 1680.0
-margin_bottom = 382.0
+margin_bottom = 403.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="Menu/CenterRow/CenterContainer"]
-margin_left = 268.0
-margin_top = 18.0
-margin_right = 570.0
-margin_bottom = 363.0
+margin_left = 175.0
+margin_right = 663.0
+margin_bottom = 403.0
 custom_fonts/font = ExtResource( 7 )
 text = "Controls:
 WASD - Move
 Shift - Run
 Ctrl - Crouch
 F - Flashlight
-Esc - Pause"
+Esc - Pause
+F4 = Toggle Fullscreen"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="Menu/CenterRow/CenterContainer"]
 margin_left = 419.0
-margin_top = 191.0
+margin_top = 201.0
 margin_right = 419.0
-margin_bottom = 191.0
+margin_bottom = 201.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="VersionLabel" type="Label" parent="Menu"]
-margin_top = 541.0
+margin_top = 562.0
 margin_right = 1680.0
 margin_bottom = 920.0
 size_flags_horizontal = 3
